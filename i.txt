@@ -1,0 +1,7 @@
+npm i -g typescript
+npm typescript -v
+npx tsc -i
+npx tsc --init
+npx tsc
+node app.js
+npx tsc
