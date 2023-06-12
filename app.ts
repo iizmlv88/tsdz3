@@ -103,3 +103,18 @@ function getUserProfile(user: User, account: Account): UserProfile {
 
   return userProfile
 }
+
+
+const user: User = {
+  name: 'Dido',
+  age: 99,
+};
+
+const account: Account = {
+  username: 'Boroda',
+  email: 'acdc@tnt.com',
+};
+
+
+
+console.log(getUserProfile(user, account));

@@ -44,3 +44,12 @@ function getUserProfile(user, account) {
     const userProfile = Object.assign(Object.assign({}, user), account);
     return userProfile;
 }
+const user = {
+    name: 'Dido',
+    age: 99,
+};
+const account = {
+    username: 'Boroda',
+    email: 'acdc@tnt.com',
+};
+console.log(getUserProfile(user, account));
